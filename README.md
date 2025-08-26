@@ -1,14 +1,14 @@
 [README.md](https://github.com/user-attachments/files/21992501/README.md)
-# 🖼️ Apprentissage par transfert pour la classification d’images  
+#  Apprentissage par transfert pour la classification d’images  
 
-## 📌 Description
+##  Description
 Classification d’images par **apprentissage par transfert (Transfer Learning)** avec plusieurs architectures CNN et Transformers modernes.  
 Les modèles implémentés sont : **VGG19, ResNet34, DenseNet121, EfficientNet et Vision Transformer (ViT)**.  
 Le dataset utilisé est **PlanetVillage** (ou un dataset similaire organisé en dossiers).  
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 ```
 TP-TransferLearning-ImageClassification/
 │── data/                   # Dataset (train/val/test)
@@ -26,7 +26,7 @@ TP-TransferLearning-ImageClassification/
 
 ---
 
-## 🚀 Installation
+##  Installation
 1. Cloner le dépôt :
 ```bash
 git clone https://github.com/ton-utilisateur/TP-TransferLearning-ImageClassification.git
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 ---
-## 📊 Expérimentations
+##  Expérimentations
 ### 🔹 Exercice 1 : Modèles de base
 - VGG19, ResNet34, DenseNet121 sans pré-entraînement.  
 
@@ -52,13 +52,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📈 Résultats attendus
+##  Résultats attendus
 - Courbes **loss / accuracy** (entraînement et validation).  
 - Comparaison des modèles en termes de précision, rapidité, et taille.  
 
 ---
 
-## 📚 Références
+##  Références
 - He et al. (ResNet): [arXiv:1512.03385](https://arxiv.org/pdf/1512.03385.pdf)  
 - Huang et al. (DenseNet): [Springer](https://link.springer.com/chapter/10.1007/978-3-030-51935-3_7)  
 - Tan & Le (EfficientNet): [arXiv:1905.11946](https://arxiv.org/pdf/1905.11946.pdf)  
